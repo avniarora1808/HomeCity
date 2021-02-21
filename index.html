@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title> HomeCity </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="website.css">
+    <!-- <link rel="stylesheet" href="chat.css"> -->
+</head>
+<style>
+    body {
+      font-family: 'Merienda';font-size: 22px;	
+    }
+    </style>
+    
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Home pics/houselogo.png" width="150px" height="150px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">SHOPPING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="signup.html">ACCOUNT</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+                <img src="Home pics/cart.png" width="30px" height = "30px">
+            </a>
+        </div>
+    </div>
+    <div class="container20">
+        <div class="row">
+            <div class="col-2">
+                <span style="font-size: 60px;" class="txt-type" data-wait= "3000" data-words= '["HOME CITY"]'></span>
+                <p>FIND CLASSY MODERN HOUSEWARE EASILY. </p>
+                <p>EXPERIENCE COMFORT AT ITS FINEST</p>
+                <a href="product.html" class="btn">EXPLORE</a>
+                
+            </div>
+            <div class ="col-2">
+                <!--slideshow container-->
+                <div class = "slideshow-container">
+
+                    <!-- full-width images with number and caption text-->
+                    <div class = "mySlides fade">
+                        <img src = "Home pics/background.jpg" style="width:100%">
+                    </div>
+                    
+                    <div class = "mySlides fade">
+                        <img src = "Home pics/store2.png" style="width:100%">
+                    </div>
+
+                    <div class = "mySlides fade">
+                        <img src = "Home pics/store3.jpg" style="width:100%">
+                    </div>
+            
+                </div>
+                <br>
+                
+                <!--dots/circles-->
+                <div style ="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                
+            </div>
+        </div> 
+    </div>   
+</div>
+
+</div>
+    <script src="main.js"></script>
+</div>
+
+<!----- feautured categories?? ----->
+    <div class="categories">
+        <div class="small-container"></div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="Home pics/shopping.webp" width="390px" height="390px">
+                </div>
+                <div class="col-3">
+                    <img src="Home pics/lamp.webp" width="390px" height="390px"> 
+                </div>
+                <div class="col-3">
+                    <img src="Home pics/table.webp" width="390px" height="390px">  
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <button class="chat-btn"> 
+            <i class="material-icons"> comment </i>
+        </button>
+
+        <div class="chat-popup">
+            <div class="badge">1</div>
+            <div class="chat-area">
+             <div class="income-msg">
+                 <img src="Home pics/table.webp" class="avatar" alt="">
+                 <span class="msg"> Hello. Welcome to Home City's live chat! How may I help you today?</span>
+             </div>   
+            </div>
+            <div class="input-area">
+                <input type="text">
+                <button class="submit"> <i class="material-icons"> send</i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+    <script src="chat.js"></script>
+<!----- featured products?? -----> 
+    <div class="big-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="Terrarium.html"> <img src="Home pics/Terrarium.jpg" width="370px" height="250px"> </a>
+                <h4>Terrarium</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <a href="ClassicReadingChair.html"> <img src="Home pics/chair.jpg" width="350px" height="250px"></a>
+                <h4>Classic Reading Chair</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/dinnerware.jpg" width="300px" height="250px">
+                <h4>Dinnerware</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/PJs.webp" width="250px" height="250px">
+                <h4>Pajama Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Home pics/spoon.jpg" height = "200px">
+                <h4>Golden Brass Spoon</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/pie.webp" height="200px">
+                <h4>Brass Pie Server</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/glasses.webp" height="200px">
+                <h4>Bolonia Agqua-glasses couplet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/teapot.webp" height="200px">
+                <h4>Classy Glass Teapot</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Home pics/chile.jpg" height = "200px">
+                <h4>Hatch Valley Green chile</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$5.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/scrunchie.jpg" height="200px"> 
+                <h4>Oversized Scrunchie</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$4.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/coffee.jpg" height="200px">
+                <h4>Original Coffee Beans</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Home pics/basket.webp" height="200px">
+                <h4>Bread basket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+        </div>
+    </div>
+<!------ limited time offer ------>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Home pics/clock.webp" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available ON SALE</p> 
+                    <h1> High Quality Grandfather Clock</h1> 
+                    <small> This modern grandfather clock is amazing! Looks classy and not
+                        too big. Looks lovely in living rooms, and can fill in the open 
+                        spaces in your house. A great deal indeed!                       
+                    </small>
+                    <a href="product.html" class="btn"> BUY NOW &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------reviews------->
+    <div class="review">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I have been to this store quite often and their stuff is incredibly pretty 
+                        and such good quality! Its not too expensive and definitely a great 
+                        experience!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="p1.png">
+                    <h3>Andrea Sanchez</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I really love going to this store. It's just like a mini-ikea! So fun to 
+                        walk around and test out different items. Their customer service is great
+                        too. Definitely worth your time :)
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="Home pics/logo.png">
+                    <h3>Jasmine Hu</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I generally hate going to homeware stores because they are so boring and 
+                        take a lot of time. But when I go to this store, I never get bored! There 
+                        is always something new here along with everything I need. Love it!❤️ 
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="p1.png">
+                    <h3>Avni Arora</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------- brands ------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                     <img src="Shopping/depot.png">
+                </div>
+                <div class="col-5">
+                    <img src="Home pics/betty.png.crdownload">
+               </div>
+               <div class="col-5">
+                    <img src="Shopping/laneige.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="Shopping/ardene.png">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<!------ footer-------->
+    <div class="footer">
+        <div class="container3">
+            <div class="row">
+            <div class="footer-col-1">
+                <h3>Stay connected with us.</h3> 
+                <p>Get new updates on any products, events, and store updates with the new updates. </p>
+                <p>...</p> 
+                
+                <h3>Enter your email:</h3>
+                <form action="/action_page.php">
+                  <!-- <label for="email">Enter your email:</label> -->
+                  <input type="email" id="email" name="email">
+                  <input type="submit">
+                </form>
+                <p>© 2020 Home City Houseware. All Rights Reserved. 
+                    Homecity.com uses cookies to personalize your shopping experience. 
+                    Please read our Privacy Policy to learn more and/or opt out.</p> 
+            </div>
+            <div class="footer-col-2">
+                <img src="Home pics/logowhite.jpeg">
+            </div>
+            <div class="footer-col-3">
+                <h3>Customer Service</h3> 
+                <p>General FAQ</p>
+                <p>Shipping & Pickup</p>
+                <p>Returns & Exchanges</p>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us!</h3> 
+                <ul>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                </ul>     
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright"></p>Copyright 2020-Home City</p>
+        </div>
+    </div>
+</body>
+</html>

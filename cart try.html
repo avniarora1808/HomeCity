@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <title>Shopping Cart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="product.css">
+</head>
+<style>
+    body {
+      font-family: 'Merienda';font-size: 22px;	
+    }
+</style>
+<body onload="doShowAll()">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Home pics/houselogo.png" width="150px" height="150px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">SHOPPING</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <img src="Home pics/cart.png" width="30px" height = "30px">
+            </div>
+        </div>  
+    </div>
+    <form name="ShoppingList">
+        <div id="items_table">
+            <h2>Shopping List</h2>
+            <table id="list"></table>
+            <label><input type="button" value="Clear" onclick="ClearAll()">
+            * Delete all items</label>
+        </div>
+    </form>
+    <script>
+//         document.getElementById('list').innerHTML = "<tr><td>" + "lol" + "</td>\n<td>"
+// + "ok" + "</td></tr>\n";
+    </script>
+    <script src="cart try.js"></script>
+</body>
+</html>
